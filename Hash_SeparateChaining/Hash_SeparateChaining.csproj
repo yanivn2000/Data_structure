@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
-    <ProjectGuid>{F466B939-E0D7-4D8F-991D-90EA91C1904F}</ProjectGuid>
+    <ProjectGuid>{22C24397-475A-4A1D-B231-C1BDBC274221}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Recursions</RootNamespace>
-    <AssemblyName>Recursions</AssemblyName>
+    <RootNamespace>Hash_SeparateChaining</RootNamespace>
+    <AssemblyName>Hash_SeparateChaining</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
@@ -34,11 +34,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sorts.cs" />
-    <Compile Include="Recursions.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="exercise1.docx" />
+    <Compile Include="Hash_SeparateChaining.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

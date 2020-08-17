@@ -1,9 +1,17 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_structure", "Data_structure\Data_structure.csproj", "{A8B43421-266F-4A65-B380-C4962D64B1BE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursions", "Recursions\Recursions.csproj", "{F466B939-E0D7-4D8F-991D-90EA91C1904F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorts", "Max_and_Bubble_Sort\Sorts.csproj", "{947CEA55-0107-4081-A778-07811568A1B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{08A558BD-613C-4E59-B015-9A442505BEA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linked_List", "Queue\Linked_List.csproj", "{8E2E946D-08C4-4B90-87F2-DC2008AC63AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularQueue", "Queue\CircularQueue.csproj", "{429F9ABF-EAD3-4B49-9A81-FC5B9BE51FF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hash_SeparateChaining", "Hash_SeparateChaining\Hash_SeparateChaining.csproj", "{22C24397-475A-4A1D-B231-C1BDBC274221}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +19,29 @@ Global
 		Release|anycpu = Release|anycpu
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A8B43421-266F-4A65-B380-C4962D64B1BE}.Debug|anycpu.ActiveCfg = Debug|anycpu
-		{A8B43421-266F-4A65-B380-C4962D64B1BE}.Debug|anycpu.Build.0 = Debug|anycpu
-		{A8B43421-266F-4A65-B380-C4962D64B1BE}.Release|anycpu.ActiveCfg = Release|anycpu
-		{A8B43421-266F-4A65-B380-C4962D64B1BE}.Release|anycpu.Build.0 = Release|anycpu
 		{F466B939-E0D7-4D8F-991D-90EA91C1904F}.Debug|anycpu.ActiveCfg = Debug|anycpu
 		{F466B939-E0D7-4D8F-991D-90EA91C1904F}.Debug|anycpu.Build.0 = Debug|anycpu
 		{F466B939-E0D7-4D8F-991D-90EA91C1904F}.Release|anycpu.ActiveCfg = Release|anycpu
 		{F466B939-E0D7-4D8F-991D-90EA91C1904F}.Release|anycpu.Build.0 = Release|anycpu
+		{947CEA55-0107-4081-A778-07811568A1B0}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{947CEA55-0107-4081-A778-07811568A1B0}.Debug|anycpu.Build.0 = Debug|anycpu
+		{947CEA55-0107-4081-A778-07811568A1B0}.Release|anycpu.ActiveCfg = Release|anycpu
+		{947CEA55-0107-4081-A778-07811568A1B0}.Release|anycpu.Build.0 = Release|anycpu
+		{08A558BD-613C-4E59-B015-9A442505BEA3}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{08A558BD-613C-4E59-B015-9A442505BEA3}.Debug|anycpu.Build.0 = Debug|anycpu
+		{08A558BD-613C-4E59-B015-9A442505BEA3}.Release|anycpu.ActiveCfg = Release|anycpu
+		{08A558BD-613C-4E59-B015-9A442505BEA3}.Release|anycpu.Build.0 = Release|anycpu
+		{8E2E946D-08C4-4B90-87F2-DC2008AC63AB}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{8E2E946D-08C4-4B90-87F2-DC2008AC63AB}.Debug|anycpu.Build.0 = Debug|anycpu
+		{8E2E946D-08C4-4B90-87F2-DC2008AC63AB}.Release|anycpu.ActiveCfg = Release|anycpu
+		{8E2E946D-08C4-4B90-87F2-DC2008AC63AB}.Release|anycpu.Build.0 = Release|anycpu
+		{429F9ABF-EAD3-4B49-9A81-FC5B9BE51FF4}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{429F9ABF-EAD3-4B49-9A81-FC5B9BE51FF4}.Debug|anycpu.Build.0 = Debug|anycpu
+		{429F9ABF-EAD3-4B49-9A81-FC5B9BE51FF4}.Release|anycpu.ActiveCfg = Release|anycpu
+		{429F9ABF-EAD3-4B49-9A81-FC5B9BE51FF4}.Release|anycpu.Build.0 = Release|anycpu
+		{22C24397-475A-4A1D-B231-C1BDBC274221}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{22C24397-475A-4A1D-B231-C1BDBC274221}.Debug|anycpu.Build.0 = Debug|anycpu
+		{22C24397-475A-4A1D-B231-C1BDBC274221}.Release|anycpu.ActiveCfg = Release|anycpu
+		{22C24397-475A-4A1D-B231-C1BDBC274221}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal
